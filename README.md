@@ -55,7 +55,75 @@ To run the project locally, follow these steps:
 
 ## Screenshots
 
+### Admin Panel
+![Dashboard](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(306).png)
+### <div align="center"> Dashboard </div><br>
+---
 
+![Insert Product](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(307).png)
+### <div align="center"> Insert Product </div><br>
+---
+
+![View Product](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(251).png)
+### <div align="center"> View Product </div><br>
+---
+
+![Edit Product](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(252).png)
+### <div align="center"> Edit Product </div><br>
+---
+
+![Product Images](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(253).png)
+### <div align="center"> Product Images </div><br>
+---
+
+![Edit Product Images](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(254).png)
+### <div align="center"> Edit Product Images </div><br>
+---
+
+![Delete Product](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(255).png)
+### <div align="center"> Delete Product </div><br>
+---
+
+### User site
+
+![Home Page](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(294).png)
+![Home Page](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(295).png)
+![Home Page](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(296).png)
+![Home Page](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(297).png)
+### <div align="center"> Home Page </div></br>
+---
+
+![Search Results](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(298).png)
+### <div align="center"> Search Results </div><br>
+---
+
+![Product Page](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(299).png)
+### <div align="center"> Product Page </div><br>
+---
+
+![Cart](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(293).png)
+### <div align="center"> Cart </div><br>
+---
+
+![Login](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(300).png)
+### <div align="center"> Login </div><br>
+---
+
+![Login](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(301).png)
+### <div align="center"> Checkout </div><br>
+---
+
+![Order History](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(304).png)
+### <div align="center"> Order History </div><br>
+---
+
+![Face Capture for try on](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(302).png)
+### <div align="center"> Face Capture for virtual try on </div><br>
+---
+
+![Products with try on feature](https://raw.githubusercontent.com/Amardeepk100/eyewear-website/main/screenshots/Screenshot%20(303).png)
+### <div align="center"> Products with virtual try on feature </div><br>
+---
 
 ## License
 
