@@ -1,0 +1,15 @@
+#video_container {
+    position: relative;
+}
+
+#canvas_oval {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#video {
+    position: relative;
+    z-index: 1;
+}

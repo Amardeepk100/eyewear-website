@@ -1,0 +1,363 @@
+:root
+{
+    scroll-padding-top: 100px; 
+}
+
+.navbar-nav
+{
+    --bs-nav-link-color: #333333 !important;
+    --bs-nav-link-hover-color: #1274c0 !important;
+}
+
+#search,#search_button
+{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+}
+
+#search_button
+{
+    border-bottom-right-radius: .375rem;
+}
+
+#cart_button
+{
+    border:none;
+}
+
+#search_button.btn-outline-secondary,#cart_button.btn-outline-secondary
+{
+    --bs-btn-hover-color: #1274c0;
+    --bs-btn-hover-bg: #ffffff;
+}
+
+#search_button:active,#cart_button:active
+{
+    color: #1274c0;
+    background-color: #ffffff;
+}
+
+#search.form-control:focus
+{
+    border-color:#1274c0;
+    box-shadow: none
+}
+
+#search.form-control:focus + #search_button 
+{
+    border-color: #1274c0;
+}
+
+#search_icon.feather
+{
+    height: 1em;
+}
+
+.logo-container 
+{
+    width: 184px; /* Desired width of cropped image */
+    height: 65px; /* Desired height of cropped image */
+    overflow: hidden; /* Hide any content that exceeds the container's dimensions */
+}
+  
+.logo-container img 
+{
+    width: 100%; /* Make the image fill the container horizontally */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+.carousel-control-prev-icons,.carousel-control-next-icons,.product_next
+{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0px 0px 16px -5px #000000;
+}
+
+.carousel-control-prev-icons,.product_prev,.testimonial_prev
+{
+    background-image: url(assests/carousel/chevron-left.svg);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.carousel-control-next-icons,.product_next,.testimonial_next
+{
+    background-image: url(assests/carousel/chevron-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel-control-next, .carousel-control-prev
+{
+    width: 8% !important;
+    opacity: 100 !important;
+}
+
+.product_next,.product_prev,.testimonial_next,.testimonial_prev
+{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0px 0px 16px -5px #000000;
+    z-index: 3;
+}
+
+.product_prev,.testimonial_prev
+{
+    left:14%;
+}
+
+.product_next,.testimonial_next
+{
+    right:14%;
+}
+
+#eyeglasses,#sunglasses,#product_cards,#brands,#brag,#about_us,#testimonials,#contact_us
+{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+
+.eyeglasses_image_container, .sunglasses_image_container
+{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.eyeglasses_image, .sunglasses_image
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 17rem;
+    height: 17rem;
+    background-color: aqua;
+    margin: 0px 15px;
+    border-radius:5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 1; /* Allow the div to shrink */
+    transition: flex-basis 0.3s ease;
+}
+
+.product_item,.testimonial_item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.product_bg_image
+{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 200% auto; /* or auto 100% */
+    background-position: center;
+    width: 12rem;
+    height: 12rem;
+    z-index: 0;
+}
+
+.blur_layer
+{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.446);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.product_image
+{
+    background-color: rgb(255, 0, 47);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 12rem;
+    height: 6rem;
+    position: relative;
+    z-index: 2;
+}
+
+.brand_image
+{
+    background-color: rgb(255, 0, 47);
+    width:11rem;
+    height:6.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius:15px
+}
+
+.brag_image
+{
+    background-color: rgb(255, 255, 255);
+    width:5rem;
+    height:4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.brag_image
+{
+    background-color: rgb(255, 255, 255);
+    width:5rem;
+    height:4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about_us_image
+{
+    background-color: rgb(255, 0, 0);
+    height: 20rem;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.about_us_text
+{
+    height: 20rem;
+    width: 50%;
+}
+
+.testimonials_image
+{
+    width: 45%;
+    height: 16rem;
+    background-color: rgb(255, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+
+}
+
+.testimonials_quote
+{
+    width: 55%;
+    height: 16rem;
+    /* background-color: rgb(202, 123, 123); */
+}
+
+.testimonial_item
+{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 8rem;
+}
+
+
+.quote_icon
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:3rem;
+    height:3rem;
+    /* background-color:rgb(255, 0, 195); */
+}
+
+.quote_name
+{
+    font-size:22px;
+    font-weight:400px;
+}
+
+.quote_text
+{
+    font-size:16px;
+}
+
+.testimonial_prev
+{
+    left:42%;
+}
+
+.testimonial_next
+{
+    right:16%;
+}
+
+.contact_us_image
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:3rem;
+    height:3rem;
+    /* background-color:rgb(255, 0, 195); */
+    object-fit: cover;
+}
+
+.contact_us_name
+{
+    font-size:22px;
+    font-weight:400px;
+}
+
+.contact_us_text
+{
+    font-size:16px;
+}
+
+.btns
+{
+    padding: 0;
+    border: 0px;
+    background-color: #ffffff00;
+}
+
+.btn2
+{
+    padding: 0;
+    border: 0px;
+    background-color: #ffffff00;
+}
+
+@media screen and (max-width: 1730px)
+{
+    .eyeglasses_image,.sunglasses_image
+    {
+        width: 15rem;
+        height: 15rem;
+    }
+}
+  
+@media screen and (max-width: 1550px)
+{
+    .eyeglasses_image,.sunglasses_image
+    {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width: 1090px)
+{
+    .eyeglasses_image,.sunglasses_image
+    {
+        width: 8rem;
+        height: 8rem;
+    }
+}
